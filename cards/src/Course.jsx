@@ -2,7 +2,7 @@ import React from 'react'
 
 //rafc functional
 
-export const Course = ({image, title, description}) => {   //3 adet props gönderdim. 
+export const Course = ({image, title, description}) => {   //3 adet props aldım.
   
      return (
         <div>
