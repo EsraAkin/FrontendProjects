@@ -4,7 +4,7 @@ export default function TaskShow({task}) {
     console.log(task);
   return (
     
-    <div className="task-show">
+   <div className="task-show">
       <h3 className="task-title">Göreviniz</h3>
       <p>{task.title}</p>
       <h3 className="task-title">Yapılacaklar</h3>
