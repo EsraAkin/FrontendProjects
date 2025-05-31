@@ -17,23 +17,23 @@
   },
 
    {
-    "id": 1,
+    "id": 3,
     "image": "/products/img/bakir-varank.jpg",
-    "discount": 20,
+    "discount": 30,
     "rate": 4,
     "title": "Kadın T-Shirt",
     "price": 100
   },
   {
-    "id": 2,
+    "id": 4,
     "image": "/products/img/siyah-regular-fit.jpg",
-    "discount": 0,
+    "discount": 10,
     "rate": 45,
     "title": "Erkek T-Shirt",
     "price": 40
   },
    {
-    "id": 1,
+    "id": 5,
     "image": "/products/img/bakir-varank.jpg",
     "discount": 20,
     "rate": 4,
@@ -41,7 +41,7 @@
     "price": 70
   },
   {
-    "id": 2,
+    "id": 6,
     "image": "/products/img/siyah-regular-fit.jpg",
     "discount": 0,
     "rate": 45,
@@ -49,7 +49,7 @@
     "price": 40
   },
    {
-    "id": 1,
+    "id": 7,
     "image": "/products/img/bakir-varank.jpg",
     "discount": 50,
     "rate": 4,
@@ -57,7 +57,7 @@
     "price": 70
   },
   {
-    "id": 2,
+    "id": 8,
     "image": "/products/img/siyah-regular-fit.jpg",
     "discount": 0,
     "rate": 45,
@@ -65,7 +65,7 @@
     "price": 40
   },
    {
-    "id": 1,
+    "id": 9,
     "image": "/products/img/bakir-varank.jpg",
     "discount": 20,
     "rate": 4,
@@ -73,7 +73,7 @@
     "price": 70
   },
   {
-    "id": 2,
+    "id": 10,
     "image": "/products/img/siyah-regular-fit.jpg",
     "discount": 0,
     "rate": 45,
@@ -81,7 +81,7 @@
     "price": 40
   },
    {
-    "id": 1,
+    "id": 11,
     "image": "/products/img/bakir-varank.jpg",
     "discount": 20,
     "rate": 4,
@@ -89,7 +89,7 @@
     "price": 70
   },
   {
-    "id": 2,
+    "id": 12,
     "image": "/products/img/siyah-regular-fit.jpg",
     "discount": 0,
     "rate": 45,
@@ -97,7 +97,7 @@
     "price": 40
   },
    {
-    "id": 1,
+    "id": 13,
     "image": "/products/img/bakir-varank.jpg",
     "discount": 20,
     "rate": 4,
@@ -105,7 +105,7 @@
     "price": 70
   },
   {
-    "id": 2,
+    "id": 14,
     "image": "/products/img/siyah-regular-fit.jpg",
     "discount": 0,
     "rate": 45,
@@ -113,7 +113,7 @@
     "price": 40
   },
    {
-    "id": 1,
+    "id": 15,
     "image": "/products/img/bakir-varank.jpg",
     "discount": 20,
     "rate": 4,
@@ -121,7 +121,7 @@
     "price":100
   },
   {
-    "id": 2,
+    "id": 16,
     "image": "/products/img/siyah-regular-fit.jpg",
     "discount": 0,
     "rate": 45,

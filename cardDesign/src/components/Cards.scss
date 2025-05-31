@@ -1,8 +1,8 @@
 .cards-container {
   display: flex;
   justify-content: center; /* yatayda ortala */
-  align-items: flex-start; /* dikeyde başlat (ortalamak istemiyoruz burada) */
-  flex-wrap: wrap;         /* responsive dizilim için */
+  align-items: flex-start; /* dikeyde başlat*/
+  flex-wrap: wrap;         /* responsive dizilim */
   gap: 1.5rem;
   padding: 2rem;
 }
