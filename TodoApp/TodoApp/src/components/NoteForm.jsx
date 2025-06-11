@@ -5,27 +5,39 @@ import Form from 'react-bootstrap/Form';
 
 export const NoteForm = ({ onCreateNote }) => {
   const [title, setTitle] = useState('');
+  const [error, setError] = useState(false); 
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Sayfa yenilenmesin
-    if (!title.trim()) return; // Boş gönderme
+    e.preventDefault();
 
-    onCreateNote(title); // Ana bileşene aktar
-    setTitle(''); // Input'u temizle
+    if (!title.trim()) {
+      setError(true); 
+      return;
+    }
+
+    onCreateNote(title);
+    setTitle('');
+    setError(false); 
   };
 
   return (
-    <Card style={{ width: '20rem' }} className="shadow">
+    <Card style={{ width: '20rem' }} className="shadow mb-3">
       <Card.Body>
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formNoteTitle">
             <Form.Label>Title</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Enter note title"
+              placeholder="Enter note"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
+              isInvalid={error} 
             />
+            {error && (
+              <Form.Control.Feedback type="invalid">
+                Not başlığı boş olamaz!
+              </Form.Control.Feedback>
+            )}
           </Form.Group>
           <div className="d-grid">
             <Button variant="primary" type="submit">
